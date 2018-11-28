@@ -1,0 +1,76 @@
+.container{
+	font-family: 'Roboto';
+	background-color: #90c695;
+	width: 1100px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.parkImgContainer{
+	max-height: 30rem;
+	width: 1100px;
+	overflow: hidden;
+}
+.parkImg{
+	display: block;
+}
+.quote{
+	text-align: center;
+}
+#weekImg{
+	max-height: 100px;
+	max-width: auto;
+}
+
+#content {
+	margin: 0 150px 50px 150px;
+	padding-bottom: 50px;
+}
+cite { 
+    font-style: italic;
+}
+
+.parkStats li{
+	text-align: left;
+	list-style: none;
+}
+#form {
+	display: inline-flex;
+	align-items: center;
+}
+
+#form form {
+	margin-left: 20px;
+}
+
+#weather {
+	background-color: #a6d1a5;
+	border-radius: 15px;
+	padding: 5px 10px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#info{
+	background-color: #a6d1a5;
+	border-radius: 15px;
+	padding: 5px 10px;
+}
+
+.advisoryGroup {
+	position: relative;
+	bottom: 65px;
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;	
+	justify-content: flex-start;
+}
+
+.advisoryHighTemp, .advisoryLowTemp {
+	margin: 5px 5px;
+}
+
+.todayText{
+	text-align: center;
+}
